@@ -1,0 +1,56 @@
+{
+  "getArtifactObject": {
+    "script": "getArtifactObject.sh",
+    "parameters": [
+      "artifactID"
+    ],
+    "target": "deploy/chaordicledger-ipfs"
+  },
+  "getArtifactAtPath": {
+    "script": "getArtifactAtPath.sh",
+    "parameters": [
+      "artifactPath"
+    ],
+    "target": "deploy/chaordicledger-ipfs"
+  },
+  "deleteArtifactAtPath": {
+    "script": "deleteArtifactAtPath.sh",
+    "parameters": [
+      "artifactPath"
+    ],
+    "target": "deploy/chaordicledger-ipfs"
+  },
+  "createArtifact": {
+    "script": "createArtifact.sh",
+    "parameters": [
+      "formData"
+    ],
+    "target": "deploy/org1-admin-cli"
+  },
+  "createArtifactAsync": {
+    "script": "createArtifactAsync.sh",
+    "parameters": [
+      "formData"
+    ],
+    "target": "deploy/org1-admin-cli"
+  },
+  "uploadArtifact": {
+    "script": "uploadArtifact.sh",
+    "parameters": [
+      "artifactName",
+      "file"
+    ],
+    "target": "deploy/org1-admin-cli"
+  },
+  "listArtifactsAtPath": {
+    "script": "listArtifactsAtPath.sh",
+    "parameters": [
+      "path"
+    ],
+    "target": "deploy/chaordicledger-ipfs"
+  },
+  "listAllArtifacts": {
+    "script": "listAllArtifacts.sh",
+    "target": "deploy/org1-admin-cli"
+  }
+}

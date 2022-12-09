@@ -1,0 +1,23 @@
+{
+  "getLatestBlock": {
+    "script": "getLatestBlock.sh",
+    "directResult": "true",
+    "target": "deploy/org1-admin-cli"
+  },
+  "getNumberedBlock": {
+    "script": "getNumberedBlock.sh",
+    "parameters": [
+      "blocknumber"
+    ],
+    "directResult": "true",
+    "target": "deploy/org1-admin-cli"
+  },
+  "getTransactionDetails": {
+    "script": "getTransactionDetails.sh",
+    "parameters": [
+      "transactionID"
+    ],
+    "directResult": "true",
+    "target": "deploy/org1-admin-cli"
+  }
+}
